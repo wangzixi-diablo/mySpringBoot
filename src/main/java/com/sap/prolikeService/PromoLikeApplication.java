@@ -32,6 +32,7 @@ public class PromoLikeApplication extends SpringBootServletInitializer{
         return builder.build();
     }
 	
+	/*
 	@Bean
     public Connector httpConnector(){
         Connector connector=new Connector("org.apache.coyote.http11.Http11NioProtocol");
@@ -59,5 +60,5 @@ public class PromoLikeApplication extends SpringBootServletInitializer{
 	      };
 	      containerFactory.addAdditionalTomcatConnectors(httpConnector());
 	      return containerFactory;
-	   }
+	   }*/
 }
