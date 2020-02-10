@@ -6,13 +6,15 @@
 .settings
 .springBeans
 .sts4-cache
- 
+
 ### IntelliJ IDEA ###
 .idea
 *.iws
 *.iml
 *.ipr
 .txlcn
+*.log
+
 ### NetBeans ###
 /nbproject/private/
 /nbbuild/
