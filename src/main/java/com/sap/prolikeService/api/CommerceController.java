@@ -8,7 +8,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("/commerce")
+@RequestMapping("/")
 public class CommerceController {
 	
     private static final Logger log = LoggerFactory.getLogger(CommerceController.class);

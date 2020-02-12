@@ -1,5 +1,7 @@
 package com.sap.prolikeService;
 
+import java.util.Arrays;
+
 import org.apache.catalina.Context;
 import org.apache.catalina.connector.Connector;
 import org.apache.tomcat.util.descriptor.web.SecurityCollection;
@@ -24,7 +26,7 @@ public class PromoLikeApplication extends SpringBootServletInitializer{
         return builder.sources(PromoLikeApplication.class);
     }
 	public static void main(String[] args) {
-		System.out.println("Inside Spring Boot application");
+		System.out.println("Jerry Arguments:" + Arrays.toString(args));
 		SpringApplication.run(PromoLikeApplication.class, args);
 	}
 	
