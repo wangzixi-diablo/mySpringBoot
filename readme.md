@@ -25,3 +25,7 @@ cf push jerryjavadocker --docker-image i042416/ui5-nginx:v2.0
 docker tag 54df1648db82 i042416/springbootexample:v2 - 改名字
 
 docker push i042416/springbootexample:v2 
+
+Start directly via jar:
+
+java -Dserver.port=8004 -jar target/prolikeService.jar
