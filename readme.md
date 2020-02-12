@@ -6,7 +6,7 @@ http://localhost:5030/commerce/product
 
 certmgr.msc
 
-docker build -t jerry/springbootexample:v1 .
+docker build -t i042416/springbootexample:v4 .
 
 docker run -it jerry/springbootexample:v1
 
